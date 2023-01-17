@@ -1,0 +1,18 @@
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardsInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
