@@ -1,0 +1,14 @@
+.containerDetail{
+    display: flex;
+    
+    align-items: center;
+    margin: 20px;
+    gap: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.containerDetailImagen{
+    width: 200px;
+    border-radius: 5px;
+
+}

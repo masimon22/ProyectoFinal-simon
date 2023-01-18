@@ -1,10 +1,10 @@
-
+import "./itemDetail.css";
 
 
 const ItemDetail = ({item}) => {
   return (
     <div className='containerDetail'>
-    <img src={item.imagen} alt={item.id} />
+    <img className="containerDetailImagen" src={item.imagen} alt={item.id} />
 
     <article>
       <h2>{item.nombre}</h2>

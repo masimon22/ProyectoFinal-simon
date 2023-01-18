@@ -3,18 +3,34 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    height: 60px;
     background-color: rgb(230, 230, 172);
 }
 
 .links{
     display: flex;
-    width: 300px;
+    gap: 10px;
     justify-content: space-between;
     list-style-type: none;
     align-items: center;
+    
+    
+}
+.linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .carrito{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+.logo{
+    width: 200px;
+    justify-content: center;
+    
+}
+.attrezzo{
+   width: 80%;
 }

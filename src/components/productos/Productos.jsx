@@ -7,7 +7,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en cuenco de yeso sobre tripode de madera",
-    imagen: "./images/v2.jpg"
+    imagen: "/images/v2.jpg"
   },
   {
     nombre: "Ceramica",
@@ -15,7 +15,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en cuenco de ceramica",
-    imagen: "./images/v4.jpg"
+    imagen: "/images/v4.jpg"
   },
   {
     nombre: "Fe",
@@ -23,7 +23,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en recipiente de vidrio sobre tripode de hierro",
-    imagen: "./images/v6.jpg"
+    imagen: "/images/v6.jpg"
   },
   {
     nombre: "Ubud",
@@ -31,7 +31,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en cono de vidrio",
-    imagen: "./images/v7.jpg"
+    imagen: "/images/v7.jpg"
   },
   {
     nombre: "Madrid",
@@ -39,7 +39,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en recipiente de vidrio bajo",
-    imagen: "./images/v8.jpg"
+    imagen: "/images/v8.jpg"
   },
   {
     nombre: "Mini Ubud",
@@ -47,7 +47,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja recipiente de vidrio alto",
-    imagen: "./images/v14.jpg"
+    imagen: "/images/v14.jpg"
   },
   {
     nombre: "Canang",
@@ -55,7 +55,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en base de mimbre",
-    imagen: "./images/v16.jpg"
+    imagen: "/images/v16.jpg"
   },
   {
     nombre: "Pincel",
@@ -63,7 +63,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en frasco pintado",
-    imagen: "./images/v18.jpg"
+    imagen: "/images/v18.jpg"
   },
   {
     nombre: "Frascos",
@@ -71,7 +71,7 @@ const Productos = [
     categoria: "velas",
     precio: 1000,
     descripcion: "vela de cera de soja en frasco",
-    imagen: "./images/v22.jpg"
+    imagen: "/images/v22.jpg"
   },
   {
     nombre: "Bumi",
@@ -79,7 +79,7 @@ const Productos = [
     categoria: "deco",
     precio: 1000,
     descripcion: "difusor ambiental sobre carpeta tejida",
-    imagen: "./images/v2x.jpg"
+    imagen: "/images/v2x.jpg"
   },
   {
     nombre: "Porta Air",
@@ -87,7 +87,7 @@ const Productos = [
     categoria: "deco",
     precio: 1000,
     descripcion: "planta en maceta de yeso sobre tripode de madera",
-    imagen: "./images/v16xx.jpg"
+    imagen: "/images/v16xx.jpg"
   },
   {
     nombre: "Roble",
@@ -95,7 +95,7 @@ const Productos = [
     categoria: "deco",
     precio: 1000,
     descripcion: "escultura de madera y hierro",
-    imagen: "./images/v27.jpg"
+    imagen: "/images/v27.jpg"
   },
   {
     nombre: "Kayu",
@@ -103,7 +103,7 @@ const Productos = [
     categoria: "deco",
     precio: 1000,
     descripcion: "fogonero en hierro",
-    imagen: "./images/v29.jpg"
+    imagen: "/images/v29.jpg"
   },
   {
     nombre: "Mangkok",
@@ -111,7 +111,55 @@ const Productos = [
     categoria: "deco",
     precio: 1000,
     descripcion: "cuenco porta sahumerios",
-    imagen: "./images/v31.jpg"
+    imagen: "/images/v31.jpg"
+  },
+  {
+    nombre: "Toscana",
+    id: "c8",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Hornito porta vela con forma de casa italiana",
+    imagen: "/images/c8.jpg"
+  },
+  {
+    nombre: "ADN",
+    id: "c9",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Eslavones de cadena con nombres formando la familia",
+    imagen: "/images/c9.jpg"
+  },
+  {
+    nombre: "Cara",
+    id: "c7",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Escultura de ceramica sobre pie de hierro",
+    imagen: "/images/c7.jpg"
+  },
+  {
+    nombre: "Argentinidad",
+    id: "c6",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Mate de ceramica",
+    imagen: "/images/c6.jpg"
+  },
+  {
+    nombre: "Juira",
+    id: "c2",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Porta espirales",
+    imagen: "/images/c2.jpg"
+  },
+  {
+    nombre: "Tribu",
+    id: "ce4",
+    categoria: "ceramica",
+    precio: 1000,
+    descripcion: "Alajero",
+    imagen: "/images/ce4.jpg"
   },
 ];
 

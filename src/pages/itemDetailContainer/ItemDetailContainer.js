@@ -11,9 +11,9 @@ const ItemDetailContainer = () => {
 
   const getProduct = (id) => {
     return new Promise((resolve) => {
-      const productoFiltrado = Productos.find((p) => p.id === parseInt(id));
+      const productoFiltrado = Productos.find((p) => p.id === id);
       setTimeout(() => {
-        resolve(id);
+        resolve(productoFiltrado);
         console.log(productoFiltrado);
       }, 2000);
     });

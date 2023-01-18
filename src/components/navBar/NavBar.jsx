@@ -5,7 +5,12 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="navBar">
-      <div className="logo">Attrezzo</div>
+      <div className="logo">
+        
+        <NavLink  to="/">
+        <img className="attrezzo" src="/images/atrrlogo1.png" alt="imagen logo" />
+          </NavLink>
+      </div>
       <div className="linksContainer">
         <ul className="links">
           <li>
@@ -19,7 +24,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/categoria/Velas"
+              to="/categoria/velas"
             >
               Velas
             </NavLink>
@@ -27,7 +32,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/categoria/Ceramica"
+              to="/categoria/ceramica"
             >
               Ceramica
             </NavLink>
@@ -35,7 +40,7 @@ const NavBar = () => {
           <li>
             <NavLink
               className={({ isActive }) => (isActive ? "active" : "inactive")}
-              to="/categoria/Deco"
+              to="/categoria/deco"
             >
               Deco
             </NavLink>
