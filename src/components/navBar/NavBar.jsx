@@ -6,10 +6,13 @@ const NavBar = () => {
   return (
     <div className="navBar">
       <div className="logo">
-        
-        <NavLink  to="/">
-        <img className="attrezzo" src="/images/atrrlogo1.png" alt="imagen logo" />
-          </NavLink>
+        <NavLink to="/">
+          <img
+            className="attrezzo"
+            src="/images/atrrlogo1.png"
+            alt="imagen logo"
+          />
+        </NavLink>
       </div>
       <div className="linksContainer">
         <ul className="links">
@@ -48,7 +51,9 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="carrito">
-        <CartWidget /> 1
+        <NavLink to="/cart">
+          <CartWidget />
+        </NavLink>
       </div>
     </div>
   );

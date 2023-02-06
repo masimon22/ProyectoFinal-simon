@@ -1,0 +1,42 @@
+.cartContainer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cart{
+    padding: 20px;
+    width: 600px;
+    
+}
+
+.imageCart{
+    width: 50px;
+}
+
+.productsCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartButton{
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+
+.cartForm{
+    padding: 70px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput{
+    margin: 10px;
+}

@@ -75,7 +75,7 @@ const Productos = [
   },
   {
     nombre: "Bumi",
-    id: "v16x",
+    id: "v2x",
     categoria: "deco",
     precio: 1000,
     descripcion: "difusor ambiental sobre carpeta tejida",
