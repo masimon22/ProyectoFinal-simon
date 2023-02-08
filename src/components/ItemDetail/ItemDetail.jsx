@@ -13,8 +13,7 @@ const ItemDetail = ({ item }) => {
     <div className="containerDetail">
       <img className="containerDetailImagen" src={`/images/${item.imagenId}`} alt={item.id} />
 
-      <article>
-        <h2>Cantidad de productos en tu carrito: {contador}</h2>
+      <article className="cardItemDetail">
         <h2>{item.nombre}</h2>
         <h3>{item.categoriaId}</h3>
         <section>
@@ -25,16 +24,16 @@ const ItemDetail = ({ item }) => {
           <p>{item.descripcion}</p>
         </section>
         <section>
-          <p>{item.stock}</p>
+          <p>Stock: {item.stock}</p>
         </section>
         <ItemCount
           contador={contador}
           actualizaValor={setContador}
           stock={item.stock}
         />
-      </article>
+        <br></br>
       <button onClick={()=> addItem(item, contador)}>Agregar al Carrito</button>
-      <button onClick={()=> clear(item, contador)}>Vaciar Carrito</button>
+      </article>
     </div>
   );
 };

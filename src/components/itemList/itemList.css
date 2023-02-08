@@ -1,6 +1,6 @@
 .cardsContainer{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 15px;
     text-decoration: none;
     

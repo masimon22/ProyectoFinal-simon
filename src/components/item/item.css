@@ -1,5 +1,7 @@
 .cards{
     display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
     border: 1px solid #ccc;
@@ -7,6 +9,7 @@
     box-shadow: 0 2px 2px #ccc;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
+    width: 450px;
     
 }
 

@@ -1,14 +1,26 @@
 .cartContainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: baseline;
     
 }
 
 .cart{
     padding: 20px;
-    width: 600px;
+    width: 60%;
+    align-items: center;
+    
+        
+}
+.cartLi{
+    margin-top: 20px;
+    list-style: none;
     
 }
+
+
 
 .imageCart{
     width: 50px;
@@ -23,18 +35,19 @@
 
 .cartButton{
     width: 100px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 5px;
     
 }
 
 .cartForm{
-    padding: 70px;
+background-color: rgb(232, 232, 167);
 }
 
 .form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .formInput{

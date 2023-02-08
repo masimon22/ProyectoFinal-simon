@@ -1,4 +1,5 @@
 import "./itemCount.css";
+import swal from "sweetalert";
 
 
 const ItemCount = ({contador, actualizaValor, stock}) => {
@@ -6,7 +7,11 @@ const ItemCount = ({contador, actualizaValor, stock}) => {
     
     const onAdd = ()=>{
         if (stock === contador){
-            alert('Alcanzaste el maximo stock permitido')
+            swal({
+                title: "No hay mas stock disponible",
+                icon: "warning",
+                button: "Aceptar"
+            })
             return
         }
         actualizaValor(contador + 1)

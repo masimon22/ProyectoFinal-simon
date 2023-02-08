@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { cartContext } from "../../context/cartContext";
+import swal from "sweetalert";
 import {
   collection,
   addDoc,
@@ -53,7 +54,11 @@ const Cart = () => {
       .then((response) => {
         console.log(response.id);
         updateStockProducts();
-        alert("Orden creada con exito");
+        swal({
+          title: "Orden creada con éxito!",
+          icon: "success",
+          button: "Aceptar"
+        });
       })
       .catch((error) => console.log(error));
   };
@@ -85,7 +90,7 @@ const Cart = () => {
       <div className="cart">
         <ul>
           {cart.map((product) => (
-            <li key={product.id}>
+            <li className="cartLi" key={product.id}>
               <div className="productsCart">
                 <img
                   className="imageCart"
