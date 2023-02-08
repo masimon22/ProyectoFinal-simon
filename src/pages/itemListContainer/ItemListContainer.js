@@ -38,10 +38,18 @@ const ItemListContainer = ({ greating }) => {
   }, [categoria]);
 
   return (
+    <>
+    <div className="saludo">
+      <h1>
+        Bienvenidos al Ecommerce de Attrezzo
+      </h1>
+    </div>
     <div className="saludo">
       {greating}
       <ItemList productos={products} />
     </div>
+    </>
+    
   );
 };
 

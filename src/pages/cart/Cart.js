@@ -42,7 +42,7 @@ const Cart = () => {
 
   const createOrder = (event) => {
     event.preventDefault();
-    console.log(formValue);
+    
 
     const currentOrder = {
       ...order,
@@ -56,8 +56,9 @@ const Cart = () => {
         updateStockProducts();
         swal({
           title: "Orden creada con éxito!",
+          text: `su numero de Id es: ${response.id}`,
           icon: "success",
-          button: "Aceptar"
+          button: "Aceptar",
         });
       })
       .catch((error) => console.log(error));
@@ -100,7 +101,8 @@ const Cart = () => {
                 <h3> {product.name}</h3>
                 <h4>{product.category}</h4>
                 <h4>{product.quantity}</h4>
-                <h4>${product.price}</h4>
+                <h4>$ {product.price}</h4>
+
                 <button onClick={() => removeItem(product.id)}>
                   Elimiar producto
                 </button>
@@ -108,6 +110,9 @@ const Cart = () => {
             </li>
           ))}
         </ul>
+        <div>
+          <h3>El total de tu compra es: ${order.total}.-</h3>
+        </div>
         <div>
           <button className="cartButton" onClick={() => clear()}>
             Vaciar carrito

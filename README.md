@@ -6,5 +6,6 @@ Attrezzo es un Ecommerce que vende productos artesanales, en 3 categorias:
 Frameworks utilizados:
 - Bootstrap icons (para traer el icono del carrito),
 - Sweetalert (para crear una alerta animada al enviar la orden de compra, y para mostrar un maximo de stock disponible)
+- Toastify (para dar una notificacion que sea mas amigable cuando agregamos un producto al carrito)
 
 ![Alt Text](./navegabilidad.gif)
