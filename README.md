@@ -7,4 +7,4 @@ Frameworks utilizados:
 - Bootstrap icons (para traer el icono del carrito),
 - Sweetalert (para crear una alerta animada al enviar la orden de compra, y para mostrar un maximo de stock disponible)
 
-![Alt Text] (./navegabilidad.gif)
+![Alt Text](./navegabilidad.gif)
